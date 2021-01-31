@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: "../Images/Background.png";
+  justify-content: center;
+  
+}
+
+.Header {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 8rem;
+  padding-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.SkillsTitle::after {
+  content:"";
+  display:block;
+  width: 9em; 
+  max-width:70%;
+  border-bottom: 0.3em solid #5460cc;
+  margin: 1em auto 0;
+}
+
+.WorkTitle::after {
+  content:"";
+  display:block;
+  width: 9em; 
+  max-width:70%;
+  border-bottom: 0.3em solid #5460cc;
+  margin: 1em auto 0;
+}
+
+.Skills {
+  text-align: center;
+  font-family: monospace, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+
+.SkillsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 3em;
+}
+
+.SkillsList p {
+  font-size: 17px;
+  font-weight: 200%;
+}
+
+.Work {
+  margin-top: 5rem;
+}
+
+.WorkList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WorkItem {
+  display: flex;
+  flex-direction: row;
+  height: 20em;
+  width: 40em;
+  background-color: white;
+  margin: 3em;
+  border-radius: 25px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: #adb2d8;
+  border-style: solid;
+  box-shadow: -10px -10px 30px 4px rgba(0,0,0,0.1),
+              10px 10px 30px 4px rgba(45,78,255,0.15);
+}
+
+.WorkImage{
+  display: block;
+  height: 100%;
+  width: 60%;
+  overflow: hidden;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+
+
+
+.WorkSummary{
+  text-align: center;
+  font-size: 14px;
+  width: 40%;
+  margin: 1.5em;
+}
+
+.WorkSummary p {
+  font-size: 12x;
+}
+
+.SkillsList img{
+  height: 70%;
+  width: 70%;
+}
+
+.Nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.Nav:hover{
+  color: #5460cc;
+}
+
+.ProfilePic{
+  height: 16em;
+  width: 15em;
+  margin-bottom: 2em;
+}
+
+.Background{
+  position: absolute;
+  z-index: -100;
+  height: 100%;
+  width: 100%;
+  align-self: start;
+}
+
+.Skill{
+  background-color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
