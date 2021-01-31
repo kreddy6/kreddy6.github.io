@@ -65,7 +65,7 @@ function App() {
 
             <div className="WorkItem">
               <div className="WorkSummary">
-                <h2><a href= {wallAnalysis}>Research: Serving Small Businesses in a Time of Crisis</a></h2>
+                <h2><a href= {SMBAnalysis}>Research: Serving Small Businesses in a Time of Crisis</a></h2>
                 <p>Co-contributor on Deloitte's report on Small Business needs within financial services and how banks can better support Small Business customers during the pandemic.</p>
               </div>
               <div className="WorkImage">
