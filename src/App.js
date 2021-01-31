@@ -34,7 +34,7 @@ function App() {
             <div className = "Skill">
               <img src="https://static.thenounproject.com/png/3211707-200.png"></img>
               <p>Product Management</p>
-              <p>Miro, Sketch</p>
+              <p>Atlassian Suite, Sketch</p>
             </div>
             
           </div>
