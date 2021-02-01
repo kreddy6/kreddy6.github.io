@@ -16,7 +16,7 @@ function App() {
         <div className="Header" style={{ backgroundImage: `url(${Background})` }}>
           <img className= "ProfilePic" src={profilePic} alt="Profile Pic" ></img>
           <h1>Hi, I'm Karthik.</h1>
-          <h2 className="Interests">I have a passion for technology, problem solving with data, and design.</h2>
+          <h3 className="Interests" style={{ width: "800px" }}>I'm currently a lead within Deloitte's Catalyst innovation group; focused on developing customer-centric Financial Products in the Digital Banking Space. I have a passion for technology, problem solving with data, and design. </h3>
         </div>
         <div className="Skills">
           <h1 className="SkillsTitle">My Skills</h1>
@@ -75,8 +75,11 @@ function App() {
         
           </div>
         </div>
-        <h2>Contact me:</h2>
-        <p>Email: reddy.s.karthik@gmail.com</p>
+        <div>
+          <h2>Contact:</h2>
+          <p>reddy.s.karthik@gmail.com</p>
+        </div>
+        
     </div>
   );
 }
