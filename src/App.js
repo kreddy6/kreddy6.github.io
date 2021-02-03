@@ -22,7 +22,7 @@ function App() {
             <ul>
               <li><a href="#">My Work</a></li>
               <li><a href="#">My Skills</a></li>
-              <li><a href="#">My Contact</a></li>
+              <li><a href="https://www.linkedin.com/in/karthik-reddy-79443785/">My Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -42,7 +42,7 @@ function App() {
         <div className="content">
           <h1>Hi, I'm Karthik.</h1>
           <h1>I pride myself in being an analytical and compassionate problem solver.</h1>
-          <p1 className="meet">Meet me -</p1>
+          <p1 className="meet">See some of my work</p1>
         </div>
         <svg className ="diagram" width="249" height="375" viewBox="0 0 249 375" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M75.1119 67.6656L150.015 9.0847L150.209 125.998L75.1119 67.6656Z" fill="#E43FCA"/>
@@ -79,19 +79,22 @@ function App() {
         <div className="skills-container">
           <ul>
             <li>
-              <img className = "skill-img" src={Product} alt="product icon"></img>
+              <br/>
               <p className="skill-title">Product Management and design</p>
               <p className="skill-desc">2 Years of experience with Product Managent and customer-centered design thinking</p>
+              <br/>
             </li>
 
             <li>
+              <br/>
               <p className="skill-title">Data Analysis</p>
               <p className="skill-desc">Professional experience working with python, GCP BigQuery and Excel in data analysis.</p>
             </li>
 
             <li>
+              <br/>
               <p className="skill-title">Fullstack Development</p>
-              <p className="skill-desc">1 Year of experience building projects with JS, React, Node.js, and MongoDB; among others.</p>
+              <p className="skill-desc">1 Year of experience building projects with JS, React, Node.js, and MongoDB.</p>
             </li>
           </ul>
         </div>
